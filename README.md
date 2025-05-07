@@ -29,7 +29,7 @@ Ensure you have the following installed:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/<your-username>/sns-sqs-terraform.git
+   git clone https://github.com/Copubah/sns-sqs-terraform
    cd sns-sqs-terraform
    ```
 
@@ -51,7 +51,7 @@ Ensure you have the following installed:
 5. **Verify the Deployment:**
    Use the output values to verify that the resources were created successfully.
 
-## 🗂 Resources Created
+## Resources Created
 
 - **SNS Topic:** Order notifications topic for broadcasting messages.
 - **SQS Queues:**
@@ -60,12 +60,12 @@ Ensure you have the following installed:
   - Analytics Queue
 - **IAM Role:** SNS to SQS permissions for secure message delivery.
 
-## 📤 Outputs
+##  Outputs
 
 - SNS Topic ARN
 - SQS Queue URLs (Inventory, Shipping, Analytics)
 
-## 🛠️ Next Steps
+##  Next Steps
 
 - Add **Dead-Letter Queues (DLQs)** for better error handling.
 - Implement **Message Filtering** for more precise message routing.
